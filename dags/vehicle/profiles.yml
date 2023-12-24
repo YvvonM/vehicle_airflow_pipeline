@@ -1,0 +1,13 @@
+vehicle:
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: postgres
+      password: postgres
+      dbname: VEHICLES_DB
+      port: 5432
+      schema: public
+      threads: 1
+      keepalives_idle: 0
+  target: dev
